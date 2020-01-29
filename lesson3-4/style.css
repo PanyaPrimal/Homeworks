@@ -1,36 +1,67 @@
 
 .january {
     background-color: grey;
+    border: 3px solid black;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    color: rgb(47, 79, 78);
 }
 .january {
-    height: 700px;
-    width: 470px;
+    height: 227px;
+    width: 364px;
 }
 .daysOfWeek {
-    width: 470px;
+    width: inherit;
     height: 30px;
+    font-size: 1.5em;
+    font-family: inherit;
+    font-weight: 300;
+    color: rgb(60, 74, 82);
 }
 .daysOfWeek div{
     width: 50px;
     float: left;
     height: 30px;
+    border: 1px solid darkgrey;
 }
 
 .dates {
-    width: 470px;
+    width: inherit;
+    font-size: 1.3em;
+    font-family: inherit;
 }
 
 .firstWeek, .secondWeek, .thirdWeek, .fourthWeek, .fifthWeek {
     height: 32px;
-    width: 470px;
+    width: inherit;
    
 }
 .firstWeek div, .secondWeek div, .thirdWeek div, .fourthWeek div, .fifthWeek div {
     width: 50px;
     height: 30px;
     float: left;
-    border: 1px solid black;
+    border: 1px solid darkgrey;
 }
 .fifthWeek .today {
-    border: 1px solid red;
+    border: 1px solid rgb(109, 17, 35);
 }
+
+.dates .holiday {
+    color: purple;
+}
+
+
+.month div{
+    width: 50px;
+    float: left;
+    height: 30px;
+}
+.month {
+     width: inherit;
+    height: 30px;
+    font-size: 1.7em;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    color: rgb(36, 43, 47);
+    margin-bottom: 5px;
+    }
