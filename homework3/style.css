@@ -13,7 +13,6 @@
 
 .daysOfWeek {
     width: inherit;
-    height: 30px;
     font-size: 1.5em;
     font-family: inherit;
     font-weight: 300;
@@ -66,12 +65,16 @@
 }
 
 .month {
-    width: inherit;
-    height: 32px;
     font-size: 1.7em;
     font-family: 'Dancing Script', cursive;
     font-weight: 700;
     color: rgb(36, 43, 47);
     margin-bottom: 5px;
     float: left;
+}
+body .clear {
+    clear: both;
+    border: none;
+    width: 0px;
+    height: 0px;
 }
