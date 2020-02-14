@@ -12,63 +12,63 @@ body {
     width: 895px;
     background-image: url(pictures/oboi.jpg);
     background-size: 100%;
-    position: relative;
+    position: absolute;
     top: 174px;
     left: 271px;
 }
 .sofa {
     width: 50px;
     height: 50px;
-    position: relative;
-    top: 0px;
+    position: absolute;
+    top: 558px;
     left: 780px;
     z-index: 2;
 }
 .lamp {
     width: 50px;
     height: 50px;
-    position: relative;
-    top: -580px;
+    position: absolute;
+    top: -22px;
     left: 580px;
     z-index: 3;
 }
 .torsher {
     width: 50px;
     height: 50px;
-    position: relative;
-    top: -290px;
+    position: absolute;
+    top: 298px;
     left: 950px;
     z-index: 1;
 }
 .stol {
     width: 50px;
     height: 50px;
-    position: relative;
-    top: -60px;
+    position: absolute;
+    top: 648px;
     left: 555px;
     z-index: 3;
 }
 .stol2 {
     width: 50px;
     height: 50px;
-    position: relative;
-    top: -114px;
+    position: absolute;
+    top: 640px;
     left: 128px;
     z-index: 3;
 }
 .tv {
     width: 50px;
     height: 50px;
-    position: relative;
-    top: -327px;
+    position: absolute;
+    top: 480px;
     left: 153px;
     z-index: 3;
 }
 .kartina {
-    width: 500px;
-    height: 500px;
-    position: relative;
-    top: -612px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 228px;
     left: 535px;
 }
 .ramka {
