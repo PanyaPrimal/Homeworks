@@ -1,0 +1,176 @@
+body {
+  margin: 0px;
+  max-width: 1024px;
+}
+
+.wrapper {
+  margin-right: auto;
+  margin-left:  auto;
+  max-width: 1024px;
+  min-width: 360px;
+}
+header .wrapper {
+  display: flex;
+  align-items: center;
+}
+
+header div {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: aqua;
+}
+.logo {
+  margin-top: 10px;
+  margin-left: 15%;
+  height: 60px;
+  width: 15%;
+}
+.wrapper h1 {
+  width: 20%;
+  padding-left: 5%;
+}
+menu {
+  width: 70%;
+}
+.phone {
+  margin-top: 10px;
+  margin-left: 12%;
+  display: block;
+}
+.phone a{
+    color: purple;
+    display: block;
+}
+
+nav div ul li {
+  list-style-type: none;
+  display: inline-table;
+  margin: 5px;
+}
+nav div ul li a {
+  font-size: 1.2em;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  border: 3px solid purple;
+  padding: 5px;
+  color: #000;
+  height: 5vw;
+  min-height: 30px;
+  max-height: 50px;
+  text-align: center;
+  background: lightsalmon;
+}
+nav div ul li a:hover {
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  background: linear-gradient(to bottom, gray, darkgrey);
+  color: lightsalmon;
+}
+
+nav div{
+  background-color: lightcoral;
+  
+}
+
+.horizontal-menu {
+margin: 0;
+padding-left: 0;
+}
+
+
+aside .wrapper {
+  margin-right: auto;
+  margin-left:  auto;
+  max-width: 256px;
+  min-width: 90px;
+}
+aside {
+  float: left;
+}
+aside div ul li {
+  list-style-type: none;
+  margin: 10px;
+}
+aside div ul li a {
+  font-size: 1.2em;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  border: 3px solid purple;
+  padding: 5px;
+  color: #000;
+  height: 5vw;
+  min-height: 30px;
+  max-height: 50px;
+  text-align: center;
+  background: blueviolet;
+}
+aside div ul li a:hover {
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  background: linear-gradient(to bottom, darkgrey, black);
+  color: darkblue;
+}
+aside div ul:first-child(0) {
+  margin-top: 0px;
+}
+aside div ul {
+  overflow: auto;
+}
+aside div{
+  background-color: cadetblue;
+}
+.vertical-menu {
+margin: 0;
+padding-left: 0;
+}
+
+main .wrapper {
+  margin-right: auto;
+  margin-left:  auto;
+  max-width: 768px;
+  min-width: 270px;
+}
+main {
+  background: cadetblue;
+  display: block;
+  overflow: visible;
+}
+main section header h2 {
+  margin-top: 0px;
+}
+main section header nav ul li{
+  margin-top: 5px;
+  list-style-type: none;
+}
+main section header nav ul li a{
+  margin-left: 10px;
+}
+main section header ul {
+  margin: 0px;
+}
+main section footer a{
+  margin-right: 10px;
+}
+main section footer {
+display: flex;  
+padding-bottom: 10px;
+}
+
+footer .wrapper{
+  height: 60px;
+  background: lightcoral;
+  text-align: center;
+}
+footer .wrapper div {
+  font-size: 1.2em;
+  float: right;
+  margin: 15px;
+}
+
+body {
+  font-family: 'airfool';
+}
