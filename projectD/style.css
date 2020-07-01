@@ -1,0 +1,203 @@
+body {
+    margin: 0px;
+    font-family: "SourceSansPro";
+}
+.introduction-container {
+    background: #16151b no-repeat center url(./img/headerBackground.png);
+    background-size: cover;
+} 
+.wrapper {
+    margin: auto;
+    max-width: 1170px;
+    /* padding-left: 38px; */
+}
+header{
+    padding: 35px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__headline {
+    display: flex;
+    color: #ffffff;
+}
+.header__name {
+    width: 69px;
+    height: 18px;
+    font-family: Quicksand;
+    font-size: 24px;
+    letter-spacing: 0.04em;
+}
+.header__name1 {
+    width: 44px;
+    height: 16px;
+    opacity: 0.3;
+    font-family: "Source Sans Pro";
+    font-size: 9px;
+    font-weight: 400;
+    letter-spacing: 1.26px;
+    padding: 5px 0 0 5px;
+}
+.header__menu {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    color: #fffefe;
+    font-family: "SourceSansPro";
+    font-size: 16px;
+    font-weight: 400;
+}
+.header__menu .header__menu-item {
+    margin: 0 0px 0px 25px;
+    text-decoration: none;
+    color: #fff;
+}
+.header__menu-item {
+    position: relative;
+}
+.header__menu-item > img {
+    position: absolute;
+    bottom: -13px;
+    padding-top: 5px;
+    display: none;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header__menu-item:hover > img {
+    display: block;
+}
+
+.header__home-page {
+    margin-top: 89px;
+}
+.homePage__introducing {
+    color: #008ed6;
+    font-family: "SourceSansPro";
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    line-height: 48px;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+.homePage__caption {
+    color: #ffffff;
+    font-family: "SourceSansPro";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 49px;
+    letter-spacing: 0.65px;
+    margin-bottom: 25px;
+}
+.homePage__filling {
+    color: #999999;
+    width: 500px;
+    font-family: "SourceSansPro";
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.01px;
+    word-spacing: 0.1px;
+    line-height: 25px;
+    margin-bottom: 63px;
+}
+.homePage__buttons {
+    padding-bottom: 107px;
+}
+.blue-button {
+    display: inline-block;
+    flex-basis: 100%;
+    text-decoration: none;
+    height: 50px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 0 27px 0 27px;
+    border-radius: 3px;
+    color: white;
+    background-color: #008ed6;
+    font-family: "SourceSansPro";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+.clear-button {
+    display: inline-block;
+    flex-basis: 100%;
+    text-decoration: none;
+    height: 50px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 0 31px 0 31px;
+    border-radius: 3px;
+    color: white;
+    border: 1px solid #454549;
+    font-family: "SourceSansPro";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+.homePage__features-button {
+    margin-left: 15px;
+}
+
+.overview__caption {
+    padding: 65px 0 65px 4px;
+}
+.caption {
+    text-align: center;
+}
+.caption__top {
+    color: #008ed6;
+    font-family: "SourceSansPro";
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    font-family: "SourceSansProSemibold";
+}
+.caption__body {
+    margin: 10px 0 0 3px;
+    height: 66px;
+    color: #1a1a1a;
+    font-family: "SourceSansPro";
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    word-spacing: -0.18em;
+}
+.overview__items {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+}
+.overview__items .overview__item {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0px 0 0;
+}
+.overview__logo {
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    margin-bottom: 32px;
+}
+.overview__text {
+    padding: 0px 0 0 0px;
+    text-align: center;
+}
+.overview__text-title {    
+    color: #1a1a1a;
+    font-size: 24px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.overview__text-body{
+    color: #d0d0d0;
+    font-size: 18px;
+    line-height: 26px;
+    width: 230px;
+}
