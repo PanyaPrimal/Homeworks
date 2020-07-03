@@ -22,10 +22,10 @@
         margin: 0;
     }
     .details1__text {
-        padding: 0 80px 30px 570px;
+        padding: 0 50px 30px 480px;
     }
     .details1__points {
-        padding: 0 0 110px 570px;
+        padding: 30px 0 95px 480px;
     }
     .main__details1 {
         background: url(./img/details1BgPicture.png) no-repeat;
@@ -35,7 +35,12 @@
         padding: 90px 0 0 30px;
     }
     .details2__text {
-        padding: 14px 650px 100px 30px;
+        padding: 14px 590px 50px 30px;
+    }
+    .main__details2 {
+        background: url(./img/details2BgPicture.png) no-repeat;
+        background-size: 70%;
+        background-position: 110% 10%;
     }
     .quality1__caption {
         padding: 40px 0 0px 365px;
@@ -47,7 +52,7 @@
         padding: 0px 0 50px 450px;
     }
     .main__offer-Question {
-        padding: 40px 0px 40px 0px;
+        padding: 20px 0px 20px 0px;
     }
     .offer-Question__button1 {
         padding: 0 36px 0 36px;
@@ -55,17 +60,17 @@
     }
     .offer-Question__button2 {
         height: unset;
-        margin: 20px 0 0 0;
+        margin: 10px 0 0 0;
     }
     .main__offer-buttons {
-        display: block;    
-        padding: 30px 0px 0 150px;
+        display: block;
+        padding: 20px 0px 0 130px;
     }
     .offer-Question__textOffer {
         text-align: center;
     }
     .offer-Question__text-offer-o {
-        padding: 0 0 0 250px;
+        padding: 0 0 0 120px;
     }
     .quality2__caption {
         padding: 30px 0 10px 370px;
@@ -95,6 +100,12 @@
     .quality2__offer-order-button {
         padding: 15px 0 15px 45px;
     }
+    .quality3__offer-name, .quality3__offer-price-container {
+        padding: 20px;
+    }
+    .quality3__offer-order {
+        padding: 20px;
+    }
     .contacts__container {
         padding: 0px 0 20px 0px;
     }
@@ -105,8 +116,13 @@
         padding: 300px 300px 0px 300px;
     }
     .footer__logo-container {
-        padding: 35px 380px 0px;
+        padding: 35px 400px 0px;
     }
+    .footer__copyrights {
+        text-align: center;
+        padding: 0;
+    }
+
 
 }
 
@@ -136,7 +152,113 @@
     .overview__items {
         flex-wrap: wrap;
     }
+    .main__details1 {
+        background: url(./img/details1BgPicture.png) no-repeat;
+        background-position-y: 125px;
+        background-size: 60%;
+    }
+    .details1__caption {
+        padding: 20px 0 0 140px;
+    }
+    .details1__caption-top {
+        padding: 0 0 0 130px;
+    }
+    .details1__caption-sign {
+        padding: 0 0 0 180px;
+    }
+    .details1__text {
+        padding: 25px 0px 15px 390px;
+    }
+    .details1__points {
+        padding: 60px 0 80px 390px;
+    }
+    .details2__caption {
+        padding: 20px 0 0 20px;
+    }
+    .details2__text {
+        padding: 14px 392px 100px 30px;
+    }
+    .main__details2 {
+        background: url(./img/details2BgPicture.png) no-repeat;
+        background-size: 60%;
+        background-position: 110% 10%;
+    }
+    .details2__text {
+        padding: 14px 340px 15px 20px;
+    }
+    .quality1__caption {
+        padding: 10px 0 0px 200px;
+    }
+    .main__customers-review-container {
+        padding: 0px 0 0px 0;
+    }
+    .customers-review-container__cite {
+        font-size: 16px;
+    }
+    .quality1__bottom-circles {
+        padding: 20px 0 20px 285px;
+    }
+    .offer-Question__text-offer-o {
+        padding: 0 0 0 50px;
+    }
+    .main__offer-buttons {
+        display: block;
+        padding: 5px 0px 0 40px;
+    }
+    .main__offer-Question {
+        padding: 5px 0px 10px 0px;
+    }
+    .offer-Question__button2 {
+        height: unset;
+        margin: 3px 0 0 0;
+    }
+    .offer-Question__text-offer-q {
+        font-size: 30px; 
+    }
+    .offer-Question__text-offer-o {
+        font-size: 30px; 
+    }
+    .quality3__offer-name, .quality3__offer-price-container, .quality3__offer-order-button { 
+        padding: 0;
+        margin: 0;
+    }
+    .quality3__offer-order {
+        padding: 5px;
+    }
+    .quality3__offers {
+        padding: 20px 0 20px;
+    }
+    .contacts__caption {
+        padding: 10px 0 10px 0; 
+    }
+    .contacts__container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .contact__container {
+        padding: 0;
+    }
+    .contacts__container_logo {
+        padding: 0px 0 0px 77px;
+    }
+    .pointer__logo {
+        padding: 0 0 20px 27px;
+    }
+    .contacts__form .fields-wrapper .text-field {
+        padding: 10px;
+    }
+    .main__map {
+        padding: 200px 0px 0px 0px;
+    }
+    .footer__logo-container {
+        padding: 15px 240px 0px;
+    }
+    .footer__copyrights {
+        font-size: 10px;
+    }
+    
 }
+
 
 @media screen and (max-width: 481px) {
     

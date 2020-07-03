@@ -361,7 +361,7 @@ header{
 }
 .main__offer-buttons {
     display: flex;
-    padding: 60px 0px 0 50px;
+    padding: 60px 0px 0 30px;
 }
 .offer-Question__button2 {
     width: 116px;
@@ -565,6 +565,10 @@ header{
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
+    
+}
+.send-btn {
+    border: none;
 }
 .footer__background {
     background-color: #15141a;
@@ -572,14 +576,14 @@ header{
 .footer__logo-container {
     display: flex;
     justify-content: space-between;
-    padding: 53px 476px 0px;
+    padding: 53px 400px 0px;
 }
 .footer__copyrights {
     color: #444348;
     font-size: 12px;
     font-weight: 400;
-    line-height: 48px;
-    padding: 10px 0 0px 465px;
+    line-height: 48px; 
     font-family: 'SourceSansPro';
     text-transform: uppercase;
+    text-align: center;
 }
