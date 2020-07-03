@@ -112,7 +112,30 @@
 
 
 @media screen and (max-width: 769px) {
-   
+    .wrapper {
+        max-width: 670px;
+    }
+    .header__name {
+        font-size: 28px;
+    }
+    .header__name1 {
+        font-size: 10px;
+    }
+    .header__menu {
+        font-size: 18px;
+    }
+    .header__home-page {
+        margin-top: 40px;
+    }
+    .homePage__caption {
+        font-size: 42px;
+    }
+    .homePage__filling { 
+        margin-bottom: 30px;
+    }
+    .overview__items {
+        flex-wrap: wrap;
+    }
 }
 
 @media screen and (max-width: 481px) {

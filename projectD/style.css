@@ -384,65 +384,69 @@ header{
 .quality2__caption-sign{
     margin: -5px 0px 0px 105px;
 }
-.quality2__offers {
+.quality3__offers {
     display: flex;
-    align-content: space-around;
-    padding: 43px 0 55px 0px;
+    justify-content: space-between;
+    padding: 43px 0 55px;
 }
-.quality2__free, .quality2__personal, .quality2__business, .quality2__ultimate {
+.quality3__offer-wrapper {
+    width: 23.5%;
+    box-sizing: border-box;
+}
+.quality3__offer-wrapper:last-child {
+    padding-right: 0;
+}
+.quality3__offer {
+    display: flex;
+    flex-direction: column;
     border: #e0e0e0 solid 1px;
-    border-collapse: collapse;
 }
-.quality2__offer-name {
-    width: 52px;
-    height: 16px;
+.quality3__offer-name {
+    text-align: center;
     color: #1a1a1a;
     font-size: 24px;
     font-weight: 700;
-    line-height: 20px;
-    padding: 35px 140px 27px 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-.quality2__offer-price-container {
-    border: #e0e0e0 solid 1px;
-    border-collapse: collapse;
+.quality3__offer-price-container {
+    border-top: #e0e0e0 solid 1px;
+    border-bottom: #e0e0e0 solid 1px;
+    padding: 20px 40px;
 }
-.quality2__offer-price {
+.quality3__offer-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #1a1a1a;
     font-size: 60px;
     font-weight: 600;
-    line-height: 20px;
-    padding: 40px 85px 25px 100px;
 }
-.quality2__offer-price > sup {
+.quality3__offer-price sup {
     font-size: 28px;
-    font-weight: 600;
-    line-height: 20px;
+    margin-bottom: 20px;
 }
-.quality2__offer-per-month {
+.quality3__offer-per-month {
     color: #999999;
     font-size: 18px;
-    font-weight: 400;     
-    padding: 0px 0 31px 90px;
+    font-weight: 400;  
+    text-align: center;
 }
-.quality2__offer-order-text{
-    width: 196px;
-    height: 95px;
+.quality3__offer-order {
+    padding: 40px;
+}
+.quality3__offer-order-text {
     color: #999999;
     font-size: 18px;
     font-weight: 400;
-    line-height: 26px;
-    padding: 50px 33px 20px 40px;
 }
-.quality2__offer-order_link {
-   color: #60b8e5;
-   text-decoration: none; 
+.quality3__offer-order_link {
+    color: #60b8e5;
+    text-decoration: none;
 }
-
-.quality2__offer {
-    margin-right: 26px;
-}
-.quality2__offer-order-button {
-    padding: 30px 0 23px 60px;
+.quality3__offer-order-button {
+    text-align: center;
+    margin-top: 40px;
 }
 .quality1__button1 {
     color: #008ed6;
@@ -452,16 +456,6 @@ header{
     padding: 0 31px 0 31px;
     border-radius: 3px;
     border: 1px solid #e0e0e0;
-}
-.quality2__blue-name {
-    color: #008ed6;
-}
-.quality2__blue-price {
-    background-color: #008ed6;
-    
-}
-.quality2__blue-price > div {
-    color: white;
 }
 .quality1__button1-blue {
     background-color: #008ed6;
