@@ -1,16 +1,125 @@
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1025px) {
+    .wrapper {
+        max-width: 970px;
+    }
+    .homePage__buttons {
+        padding-bottom: 47px;
+    }
+    .overview__caption {
+        padding: 45px 0 45px 4px;
+    }
+    .overview__items .overview__item {
+        padding: 0 0px 36px 0;
+    }
+    .details1__caption {
+        padding: 70px 0 0 570px;
+    }
+    .details1__caption-sign {
+        padding: 30px 0 0 0px;
+        margin: 0;
+    }
+    .details1__caption-body {
+        margin: 0;
+    }
+    .details1__text {
+        padding: 0 80px 30px 570px;
+    }
+    .details1__points {
+        padding: 0 0 110px 570px;
+    }
+    .main__details1 {
+        background: url(./img/details1BgPicture.png) no-repeat;
+        background-position-y: 30px;
+    }
+    .details2__caption {
+        padding: 90px 0 0 30px;
+    }
+    .details2__text {
+        padding: 14px 650px 100px 30px;
+    }
+    .quality1__caption {
+        padding: 40px 0 0px 365px;
+    }
+    .main__customers-review-container {
+        padding: 60px 0 100px 0;
+    }
+    .quality1__bottom-circles {
+        padding: 0px 0 50px 450px;
+    }
+    .main__offer-Question {
+        padding: 40px 0px 40px 0px;
+    }
+    .offer-Question__button1 {
+        padding: 0 36px 0 36px;
+        height: unset;
+    }
+    .offer-Question__button2 {
+        height: unset;
+        margin: 20px 0 0 0;
+    }
+    .main__offer-buttons {
+        display: block;    
+        padding: 30px 0px 0 150px;
+    }
+    .offer-Question__textOffer {
+        text-align: center;
+    }
+    .offer-Question__text-offer-o {
+        padding: 0 0 0 250px;
+    }
+    .quality2__caption {
+        padding: 30px 0 10px 370px;
+    }
+    .quality2__caption-top {
+        margin: 0 0 0 60px;
+    }
+    .quality2__offers {
+        display: flex;
+        padding: 20px 0 25px 0px;
+    }
+    .quality2__offer {
+        margin-right: 20px;
+    }
+    .quality2__offer-name {
+        padding: 20px 80px 20px 80px;
+    }
+    .quality2__offer-price {
+        padding: 20px 0px 20px 75px;
+    }
+    .quality2__offer-per-month {
+        padding: 0px 0 0px 80px; 
+    }
+    .quality2__offer-order-text {
+        padding: 20px 10px 0px 20px;
+    }
+    .quality2__offer-order-button {
+        padding: 15px 0 15px 45px;
+    }
+    .contacts__container {
+        padding: 0px 0 20px 0px;
+    }
+    .contacts__form {
+        padding: 32px 67px 24px 66px;
+    }
+    .main__map {
+        padding: 300px 300px 0px 300px;
+    }
+    .footer__logo-container {
+        padding: 35px 380px 0px;
+    }
+
+}
+
+
+@media screen and (max-width: 769px) {
    
 }
 
-@media screen and (max-width: 770px) {
-   
-}
-
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 481px) {
     
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
 
 }
     
