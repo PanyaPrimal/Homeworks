@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     font-family: "SourceSansPro";
+    transition: all 1s ease-out;
 }
 .introduction-container {
     background: #16151b no-repeat center url(./img/headerBackground.png);
