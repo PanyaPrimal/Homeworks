@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url('./fonts/Quicksand-Bold.ttf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('./fonts/SourceSansPro-Bold.ttf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('./fonts/SourceSansPro-Light.ttf');
+    font-weight: lighter;
+}
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('./fonts/SourceSansPro-Regular.ttf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('./fonts/SourceSansPro-ExtraLightItalic.ttf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('./fonts/SourceSansPro-LightItalic.ttf');
+    font-weight: normal;
+}
